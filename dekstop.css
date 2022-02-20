@@ -1,0 +1,125 @@
+   /*for dekstop*/
+   .col-1 {width: 8.33%;}
+   .col-2 {width: 16.66%;}
+   .col-3 {width: 25%;}
+   .col-4 {width: 33.33%;}
+   .col-5 {width: 41.66%;}
+   .col-6 {width: 50%;}
+   .col-7 {width: 58.33%;}
+   .col-8 {width: 66.66%;}
+   .col-9 {width: 75%;}
+   .col-10 {width: 83.33%;}
+   .col-11 {width: 91.66%;}
+   .col-12 {width: 100%;}
+/* 
+navbarer design start here */
+   .nav-logo{
+       text-align: left;
+   }
+   .nav-heading h1{
+       text-align: right;
+   }
+   .nav-menu{
+       flex-direction: row;
+       justify-content: flex-end;
+   }
+   .nav-menu a{
+       padding: 5px 10px;
+       margin: 40px 0;
+       background-color: transparent;
+   }
+   /* 
+navbarer design end here */
+
+ /* profile design start here */
+ .profile-desc p{
+    color: rgb(12, 112, 21);
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 20px  auto;
+
+}
+ .profile .top-weather-icon{
+    
+    right: 100px;
+    width: 120px;
+    transition: width 2s, transform 2s;
+}
+.profile .top-weather-icon:hover{
+  width: 150px;
+}
+.profile .bottom-weather-icon{
+    
+    left: 140px;
+    width: 120px;
+    transition: width 2s, transform 2s;
+}
+.profile .bottom-weather-icon:hover{
+  width: 150px;
+}
+ /* profile design ends here */
+
+ /* about me design start here */
+.about-me-image{
+    margin-top: 100px;
+}
+.about-me-image img{
+    height: 220px;
+    width: 250px;
+}
+.about-me-desc p{
+    text-align: left;
+}
+
+ /* about me design start here */
+/* profesional-experience start here */
+.profesional-experience{
+    padding: 1% 5%;
+}
+/* profesional-experience ends here */
+
+/* achievement contact start from here */
+.achievement{
+    padding-right: 50px;
+}
+.contact button{
+   
+    border: none;
+    background-color: aquamarine;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    width: 130px;
+}
+
+
+.contact-links{
+    position: relative;
+
+}
+.media-button{
+    margin-top:200px ;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* achievement contact ends here */
+
+ /* footer start from here */
+ .footer-menu a{
+    margin: 10px;
+    background-color: rgb(15, 11, 230);
+    padding: 7px;
+    border-radius: 17px;
+    width: 150px;
+    display: inline;
+}
+.footer-desc{
+ font-weight: bold;
+ color: orangered;
+ font-style: italic;
+}
+ /* footer ends here */
+ 
